@@ -1,0 +1,7 @@
+C:\Users\dzenit\source\repos\191307095DzenitHafta12Odev10\191307095DzenitHafta12Odev10\obj\Debug\191307095DzenitHafta12Odev10.csprojAssemblyReference.cache
+C:\Users\dzenit\source\repos\191307095DzenitHafta12Odev10\191307095DzenitHafta12Odev10\obj\Debug\191307095DzenitHafta12Odev10.csproj.CoreCompileInputs.cache
+C:\Users\dzenit\source\repos\191307095DzenitHafta12Odev10\191307095DzenitHafta12Odev10\bin\Debug\191307095DzenitHafta12Odev10.exe.config
+C:\Users\dzenit\source\repos\191307095DzenitHafta12Odev10\191307095DzenitHafta12Odev10\bin\Debug\191307095DzenitHafta12Odev10.exe
+C:\Users\dzenit\source\repos\191307095DzenitHafta12Odev10\191307095DzenitHafta12Odev10\bin\Debug\191307095DzenitHafta12Odev10.pdb
+C:\Users\dzenit\source\repos\191307095DzenitHafta12Odev10\191307095DzenitHafta12Odev10\obj\Debug\191307095DzenitHafta12Odev10.exe
+C:\Users\dzenit\source\repos\191307095DzenitHafta12Odev10\191307095DzenitHafta12Odev10\obj\Debug\191307095DzenitHafta12Odev10.pdb
