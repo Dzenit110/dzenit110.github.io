@@ -1,0 +1,1 @@
+A program where 3 and 4 digit numbers are checked, whether they are divisible by the number 4.
