@@ -1,0 +1,3 @@
+7- Kullanıcının gireceği değere kadar olan Fibonacci serisi açan programını yazınız?
+Fibonacci dizisinin ilk iki sayısı sabittir: 1'dir. Daha sonraki her sayı kendisinden önce gelen iki sayının toplamı şeklindedir 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610...
+//Örn:Serinin 8.terimi için açılım : 1 1 2 3 5 8 13  olacaktır.
