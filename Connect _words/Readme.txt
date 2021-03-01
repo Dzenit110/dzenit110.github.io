@@ -1,0 +1,1 @@
+The words entered by the user, between the words delete spaces and print those words joined.
