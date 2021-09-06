@@ -1,0 +1,95 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _191307095_DzenitVildic_Odev8
+{
+    class KrediHesap
+    {
+        string adSoyad;
+        double limit, bakiye;
+        int musSayisi;
+
+        static int toplamKartSayisi = 0;
+
+       public void HesapAc(int musSayisi, string adSoyad, double b, double l)
+        {
+
+            this.adSoyad = adSoyad;
+            limit = l;
+            bakiye = b;
+            this.musSayisi = musSayisi;
+
+        }
+
+
+        public void ParaCek(double cekilenPara)
+        {
+            if (cekilenPara <= bakiye)
+            {
+                bakiye = bakiye - cekilenPara;
+            }
+
+            else if (cekilenPara < (bakiye + limit))
+            {
+                limit = limit - (cekilenPara - bakiye);
+                bakiye = 0;
+            }
+
+            else
+            {
+                Console.WriteLine("bakiye ve limit yetersiz...");
+                bakiye = 0;
+                limit = 0;
+            }
+        }
+
+        public void ParaYatir(double yatirilanPara)
+        {
+            bakiye += yatirilanPara;
+        }
+
+        static void KartSayisiYazdir()
+        {
+            toplamKartSayisi++;
+            Console.WriteLine("Toplam kart sayısı:" + toplamKartSayisi);
+
+        }
+
+       public void Yazdir()
+        {
+            Console.WriteLine("--------------");
+            Console.WriteLine("Musteri No:" + musSayisi);
+            Console.WriteLine("Musteri Adı soyadı:" + adSoyad);
+            Console.WriteLine("Bakiye:" + bakiye);
+            Console.WriteLine("Limit:" + limit);
+            Console.WriteLine("--------------");
+           
+
+        }
+        static void Main(string[] args)
+        {
+            KrediHesap k1 = new KrediHesap();
+            k1.HesapAc(1, "ali", 500, 1000);
+            k1.Yazdir();
+            k1.ParaYatir(100);
+            k1.Yazdir();
+            k1.ParaCek(1590);
+            k1.Yazdir();
+            KrediHesap.KartSayisiYazdir();
+            KrediHesap k2 = new KrediHesap();
+            k2.HesapAc(2, "ahmet", 300, 1000);
+            k2.Yazdir();
+            k2.ParaYatir(100);
+            k2.Yazdir();
+            k2.ParaCek(1500);
+            k2.Yazdir();
+            KrediHesap.KartSayisiYazdir();
+
+
+            Console.ReadKey();
+        }
+    }
+}

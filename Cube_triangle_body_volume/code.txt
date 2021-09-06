@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _191307095_DzenitVildic
+{
+    class Sekil
+    {
+        static void nokta(int a)
+        {
+            Console.WriteLine("Bu bir noktadır, değeri:"+a);
+        }
+
+        static void nokta(int a, int b)
+        {
+            if (a > b || b > a)
+            {
+                int Alan = a * b;
+
+                Console.WriteLine("Bu bir dikdörtgendir. Alan:"+Alan);
+
+            }
+            else
+            {
+                int Alan = a * b;
+
+                Console.WriteLine("Bu bir kare. Alan:"+Alan);
+            }
+        }
+
+        static void nokta(int a, int b, int c)
+        {
+            int Hacim = a * b * c;
+
+            Console.WriteLine("3 boyutlu bir cisimdir. Hacim:" + Hacim);
+        }
+
+        static void Main(string[] args)
+        {
+
+            nokta(4);
+            nokta(4, 9);
+            nokta(10, 5);
+            nokta(8, 8);
+            nokta(4, 2, 1);
+
+            Console.ReadKey();
+        }
+    }
+}
